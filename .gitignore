@@ -1,0 +1,31 @@
+# =========================
+# Dependencies
+# =========================
+# This ignores node_modules in BOTH your Backend and Frontend folders
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# =========================
+# Environment Variables (CRITICAL)
+# =========================
+# This prevents your database passwords and secret keys from being leaked
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# =========================
+# Frontend Build Output
+# =========================
+# Ignores the production files Vite creates when you run 'npm run build'
+Frontend/dist/
+Frontend/dist-ssr/
+
+# =========================
+# Editor & OS Files
+# =========================
+.vscode/
+.DS_Store
+Thumbs.db
